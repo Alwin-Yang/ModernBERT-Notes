@@ -1,13 +1,14 @@
 # ModernBERT Overview
 
-ModernBERT keeps BERT's encoder-only, bidirectional objective and replaces its
-2018-era blocks with components proven in modern language models. It is built
+ModernBERT keeps [BERT](bert.md)'s encoder-only, bidirectional objective and
+replaces its 2018-era blocks with components proven in modern language models. It is built
 for classification, retrieval, token labeling, and masked language modeling,
 not autoregressive text generation.
 
 ## The architecture at a glance
 
 ```mermaid
+%%{init: {"themeVariables": {"fontSize": "40px"}}}%%
 flowchart LR
     A["Token IDs (B, T)"] --> B["Embedding + LayerNorm (B, T, D)"]
     B --> C["Global attention + RoPE"]
@@ -33,8 +34,8 @@ The next pages derive each change and connect it to the implementation.
 
 # 中文版本
 
-ModernBERT 保留 BERT 的 encoder-only 双向目标，同时把 2018 年的 block 换成现代
-语言模型中已经验证过的组件。它面向分类、检索、token labeling 和 masked language
+ModernBERT 保留 [BERT](bert.md) 的 encoder-only 双向目标，同时把 2018 年的
+block 换成现代语言模型中已经验证过的组件。它面向分类、检索、token labeling 和 masked language
 modeling，而不是 autoregressive 文本生成。
 
 ## 架构总览

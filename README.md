@@ -18,8 +18,8 @@
 
 ## 推荐学习顺序
 
-1. 阅读 [ModernBERT Overview](docs/modernbert/index.md) 与
-   [Architecture](docs/modernbert/architecture.md)
+1. 阅读 [BERT](docs/modernbert/bert.md)、[ModernBERT Overview](docs/modernbert/index.md)
+   与 [Architecture](docs/modernbert/architecture.md)
 2. 运行最小 ModernBERT：`python -m examples.inspect_modernbert`
 3. 阅读 [Laya Decision Head](docs/decisions/laya-head.md) 与
    [RLCD](docs/decisions/rlcd.md)

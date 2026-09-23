@@ -2,6 +2,10 @@
 
 ## Primary sources
 
+- Vaswani et al., [*Attention Is All You Need*](https://arxiv.org/abs/1706.03762),
+  2017.
+- Devlin et al., [*BERT: Pre-training of Deep Bidirectional Transformers for
+  Language Understanding*](https://arxiv.org/abs/1810.04805), 2019.
 - Warner et al., [*Smarter, Better, Faster, Longer: A Modern Bidirectional
   Encoder for Fast, Memory Efficient, and Long Context Finetuning and
   Inference*](https://arxiv.org/abs/2412.13663), 2024.
@@ -28,6 +32,9 @@ decision-model chapters.
 
 ## 一手资料
 
+- Vaswani 等，[《Attention Is All You Need》](https://arxiv.org/abs/1706.03762)，2017。
+- Devlin 等，[《BERT: Pre-training of Deep Bidirectional Transformers for
+  Language Understanding》](https://arxiv.org/abs/1810.04805)，2019。
 - Warner 等，[《Smarter, Better, Faster, Longer: A Modern Bidirectional
   Encoder for Fast, Memory Efficient, and Long Context Finetuning and
   Inference》](https://arxiv.org/abs/2412.13663)，2024。

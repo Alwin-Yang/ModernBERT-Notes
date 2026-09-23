@@ -60,6 +60,7 @@ nav:
   - Home: index.md
   - ModernBERT:
       - Overview: modernbert/index.md
+      - BERT: modernbert/bert.md
       - Architecture: modernbert/architecture.md
       - From Scratch: modernbert/from-scratch.md
       - Q&A: modernbert/q-and-a.md

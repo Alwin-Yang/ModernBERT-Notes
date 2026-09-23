@@ -1,6 +1,6 @@
 # ModernBERT Architecture
 
-This page derives the main changes that turn BERT into ModernBERT. Let batch
+This page derives the main changes that turn [BERT](bert.md) into ModernBERT. Let batch
 size be $B$, sequence length be $T$, hidden width be $d_{model}$, the number of
 attention heads be $H$, and per-head width be $d_k=d_{model}/H$.
 
@@ -159,7 +159,7 @@ and one attention weight outside the local window.
 
 # 中文版本
 
-本页推导把 BERT 变成 ModernBERT 的主要改动。记 batch size 为 $B$，序列长度为
+本页推导把 [BERT](bert.md) 变成 ModernBERT 的主要改动。记 batch size 为 $B$，序列长度为
 $T$，hidden width 为 $d_{model}$，attention head 数为 $H$，每个 head 的宽度为
 $d_k=d_{model}/H$。
 
