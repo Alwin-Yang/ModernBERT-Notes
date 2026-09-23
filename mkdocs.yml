@@ -1,0 +1,73 @@
+site_name: ModernBERT Notes
+site_description: From ModernBERT internals to Laya-style decision models and RLCD.
+repo_name: Alwin-Yang/ModernBERT-Notes
+repo_url: https://github.com/Alwin-Yang/ModernBERT-Notes
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2026 Zewen Yang
+dev_addr: 127.0.0.1:3408
+extra:
+  generator: false
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+plugins:
+  - search:
+      separator: '[\s\u200b\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Home: index.md
+  - ModernBERT:
+      - Overview: modernbert/index.md
+      - Architecture: modernbert/architecture.md
+      - From Scratch: modernbert/from-scratch.md
+      - Q&A: modernbert/q-and-a.md
+  - Decision Models:
+      - Overview: decisions/index.md
+      - Laya Decision Head: decisions/laya-head.md
+      - RLCD: decisions/rlcd.md
+      - Calibration: decisions/calibration.md
+      - Q&A: decisions/q-and-a.md
+  - Practice: practice/index.md
+  - References: references/index.md

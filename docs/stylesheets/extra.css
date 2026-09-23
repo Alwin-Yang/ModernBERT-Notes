@@ -1,0 +1,97 @@
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0b1120;
+  --md-default-bg-color--light: #111a2e;
+  --md-default-bg-color--lighter: #1d2942;
+  --md-default-fg-color: #e6edf7;
+  --md-default-fg-color--light: #c6d0e1;
+  --md-default-fg-color--lighter: #8fa0ba;
+  --md-primary-fg-color: #8b5cf6;
+  --md-primary-fg-color--light: #a78bfa;
+  --md-primary-fg-color--dark: #6d3ee8;
+  --md-accent-fg-color: #22d3ee;
+  --md-accent-fg-color--transparent: #22d3ee1f;
+  --md-typeset-a-color: #a78bfa;
+  --md-code-bg-color: #080d18;
+  --md-footer-bg-color: #080d18;
+}
+
+.md-header,
+.md-tabs {
+  background: #080d18;
+  border-bottom: 1px solid #1d2942;
+}
+
+.md-typeset h1 {
+  color: #c4b5fd;
+  font-weight: 750;
+  letter-spacing: -.025em;
+}
+
+.md-typeset h2 { color: #67e8f9; }
+.md-typeset h3 { color: #86efac; }
+.md-typeset strong { color: #f0abfc; }
+
+.md-typeset code {
+  border: 1px solid #1d2942;
+}
+
+.highlight {
+  border: 1px solid #263653;
+  border-radius: .55rem;
+  box-shadow: 0 .3rem 1rem #03071266;
+}
+
+.qa-list h2 {
+  align-items: center;
+  background: #22d3ee12;
+  border: 1px solid #22d3ee4d;
+  border-bottom: 0;
+  border-radius: .55rem .55rem 0 0;
+  color: #67e8f9;
+  display: flex;
+  font-size: 1rem;
+  margin: 1.5rem 0 0;
+  padding: .8rem 1rem;
+}
+
+.qa-list h2::before {
+  background: #6d3ee8;
+  border-radius: 50%;
+  color: #f8fafc;
+  content: "Q";
+  flex: 0 0 1.5rem;
+  font-size: .7rem;
+  font-weight: 700;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin-right: .65rem;
+  text-align: center;
+  width: 1.5rem;
+}
+
+.qa-list h2 + p {
+  background: #080d18;
+  border: 1px solid #22d3ee4d;
+  border-radius: 0 0 .55rem .55rem;
+  line-height: 1.65;
+  margin: 0;
+  padding: 1rem;
+}
+
+.md-nav__link--active,
+.md-nav__link:hover,
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #22d3ee !important;
+}
+
+@media screen and (min-width: 60em) {
+  .md-content__inner {
+    background: #0e1628;
+    border: 1px solid #1d2942;
+    border-radius: .7rem;
+    box-shadow: 0 .4rem 1.2rem #03071259;
+    margin-top: 1rem;
+    padding: 1.6rem 1.9rem;
+  }
+}
